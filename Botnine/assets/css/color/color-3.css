@@ -1,0 +1,171 @@
+/*===================== 	Premery bg color =====================*/
+
+:root {
+    --primary: #ffae00;
+    --sc-primary: #eba000;
+}
+
+
+/* Hex */
+
+.bg-primary,
+.btn,
+.comments-area .comment-form p input[type="submit"],
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.feature-filters .active > [class*="btn"],
+.list-num-count > li:before,
+.pagination-bx.primary .pagination > li > a,
+.pagination-bx.primary .pagination > li > span,
+button.back-to-top,
+.rev-btn {
+    background-color: #ffae00;
+}
+
+
+/*Hex color :hover */
+.btn:active,
+.btn:hover,
+.btn:focus,
+.active > .btn,
+.bg-primary-dark,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.sidenav .closebtn:hover,
+.sidenav .closebtn:focus,
+.owl-btn-1.primary .owl-prev:hover,
+.owl-btn-1.primary .owl-next:hover,
+.owl-btn-2.primary .owl-prev:hover,
+.owl-btn-2.primary .owl-next:hover,
+.pagination-bx.primary .pagination > li > a:hover,
+.pagination-bx.primary .pagination > li > span:hover,
+.pagination-bx.primary .pagination > li.active > span,
+.pagination-bx.primary .pagination > li.active > a {
+    background-color: #eba000;
+}
+
+
+/*===================== 	Premery text color =====================*/
+
+a,
+.text-primary,
+.primary li:before,
+.menu-links .nav > li.active > a,
+.menu-links .nav > li:hover > a,
+.menu-links .nav > li .mega-menu > li ul a:hover,
+.menu-links .nav > li .sub-menu li:hover > a,
+footer a:active,
+footer a:focus,
+footer a:hover,
+footer h1 a,
+footer h2 a,
+footer h3 a,
+footer h4 a,
+footer h5 a,
+footer h6 a,
+footer p a,
+.testimonial-1 .testimonial-position,
+.acod-head a:after,
+.acod-head a,
+.acod-head a:hover,
+.acod-head a.collapsed:hover,
+.ttr-tabs .nav-tabs > li > a i,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+.btn.outline,
+.btn-link:hover {
+    color: #ffae00;
+}
+
+
+/*===================== 	Secondery bg color =====================*/
+
+.bg-secondry {
+    background-color: #2d3239;
+}
+
+
+/*===================== 	Secondery text color =====================*/
+
+.text-secondry {
+    color: #eba000;
+}
+
+.ovpr-light:after,
+.ovpr-middle:after,
+.ovpr-dark:after,
+.ovpr:after{
+    background-color: #ff5e14;
+}
+
+.ttr-notify-header::after,
+.about-year,
+.widget-bg1,
+.ttr-search-bar,
+.ttr-header,
+.account-head:after {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#424bff+0,ffae00+100 */
+	background: #424bff; /* Old browsers */
+	background: -moz-linear-gradient(top, #424bff 0%, #ffae00 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #424bff 0%,#ffae00 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #424bff 0%,#ffae00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424bff', endColorstr='#ffae00',GradientType=0 ); /* IE6-9 */
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+
+/* Secondry Color */
+.btn:active,
+.btn:focus,
+.btn:hover{
+    background-color: #eba000;
+}
+.ovprd-light:after,
+.ovprd-middle:after,
+.ovprd-dark:after,
+.ovprd:after{
+	background-color:#000374;
+}
+
+[class*="ovbl-"] .counter-style-1 .counter-text,
+.header-transparent .secondary-menu .btn-link:hover,
+.header-transparent .menu-links .nav > li:hover > a,
+.header-transparent .menu-links .nav > li.active > a{
+    color: #eba000;
+}
+button.back-to-top:hover{
+    background-color: #ffae00;
+    color: #fff;
+}
+
+.heading-bx.left .title-head {
+    border-color: #eba000;
+}
+.ttr-separator.sepimg{
+    background-image: url(../../images/separator-3.png);
+}
+
+/* SC Color */
+/* .feature-bx2,
+.footer-style2 .footer-top,
+.footer-bottom,
+.btn-secondry,
+.top-bar{
+	background-color: #19160f;
+} */

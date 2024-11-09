@@ -1,0 +1,200 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 12/11/2019 16:15
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-gasoline-pump:before { content: "\f100"; }
+.flaticon-spanner:before { content: "\f101"; }
+.flaticon-light-bolt:before { content: "\f102"; }
+.flaticon-trolley:before { content: "\f103"; }
+.flaticon-lorry:before { content: "\f104"; }
+.flaticon-battery:before { content: "\f105"; }
+.flaticon-container:before { content: "\f106"; }
+.flaticon-warehouse:before { content: "\f107"; }
+.flaticon-roller-brush:before { content: "\f108"; }
+.flaticon-fire-extinguisher:before { content: "\f109"; }
+.flaticon-wrench:before { content: "\f10a"; }
+.flaticon-plane:before { content: "\f10b"; }
+.flaticon-power-plant:before { content: "\f10c"; }
+.flaticon-helmet:before { content: "\f10d"; }
+.flaticon-trolley-1:before { content: "\f10e"; }
+.flaticon-shop:before { content: "\f10f"; }
+.flaticon-delivery:before { content: "\f110"; }
+.flaticon-barrel:before { content: "\f111"; }
+.flaticon-crane:before { content: "\f112"; }
+.flaticon-clipboard:before { content: "\f113"; }
+.flaticon-gears:before { content: "\f114"; }
+.flaticon-cone:before { content: "\f115"; }
+.flaticon-shovel:before { content: "\f116"; }
+.flaticon-ship:before { content: "\f117"; }
+.flaticon-jerrycan:before { content: "\f118"; }
+.flaticon-saw:before { content: "\f119"; }
+.flaticon-flashlight:before { content: "\f11a"; }
+.flaticon-drill:before { content: "\f11b"; }
+.flaticon-fuel:before { content: "\f11c"; }
+.flaticon-driller:before { content: "\f11d"; }
+.flaticon-derrick:before { content: "\f11e"; }
+.flaticon-factory:before { content: "\f11f"; }
+.flaticon-truck:before { content: "\f120"; }
+.flaticon-axe:before { content: "\f121"; }
+.flaticon-screwdriver:before { content: "\f122"; }
+.flaticon-box:before { content: "\f123"; }
+.flaticon-excavator:before { content: "\f124"; }
+.flaticon-hammer:before { content: "\f125"; }
+.flaticon-flask:before { content: "\f126"; }
+.flaticon-trowel:before { content: "\f127"; }
+.flaticon-tractor:before { content: "\f128"; }
+.flaticon-pipe:before { content: "\f129"; }
+.flaticon-hook:before { content: "\f12a"; }
+.flaticon-plug:before { content: "\f12b"; }
+.flaticon-forklift:before { content: "\f12c"; }
+.flaticon-welder:before { content: "\f12d"; }
+.flaticon-barrier:before { content: "\f12e"; }
+.flaticon-maintenance:before { content: "\f12f"; }
+.flaticon-mask:before { content: "\f130"; }
+.flaticon-rocket:before { content: "\f131"; }
+.flaticon-documentation:before { content: "\f132"; }
+.flaticon-target:before { content: "\f133"; }
+.flaticon-speedometer:before { content: "\f134"; }
+.flaticon-diagram:before { content: "\f135"; }
+.flaticon-horse:before { content: "\f136"; }
+.flaticon-store:before { content: "\f137"; }
+.flaticon-piggy-bank:before { content: "\f138"; }
+.flaticon-paper-plane:before { content: "\f139"; }
+.flaticon-money-bag:before { content: "\f13a"; }
+.flaticon-line-graph:before { content: "\f13b"; }
+.flaticon-award:before { content: "\f13c"; }
+.flaticon-tag:before { content: "\f13d"; }
+.flaticon-card:before { content: "\f13e"; }
+.flaticon-delivery-truck:before { content: "\f13f"; }
+.flaticon-tasks:before { content: "\f140"; }
+.flaticon-decreasing:before { content: "\f141"; }
+.flaticon-low-price:before { content: "\f142"; }
+.flaticon-evolution:before { content: "\f143"; }
+.flaticon-work-time:before { content: "\f144"; }
+.flaticon-line-chart:before { content: "\f145"; }
+.flaticon-coins:before { content: "\f146"; }
+.flaticon-idea:before { content: "\f147"; }
+.flaticon-analytics:before { content: "\f148"; }
+.flaticon-negotiation:before { content: "\f149"; }
+.flaticon-bank:before { content: "\f14a"; }
+.flaticon-id-card:before { content: "\f14b"; }
+.flaticon-chart:before { content: "\f14c"; }
+.flaticon-pie-chart:before { content: "\f14d"; }
+.flaticon-timer:before { content: "\f14e"; }
+.flaticon-communications:before { content: "\f14f"; }
+    
+    $font-Flaticon-gasoline-pump: "\f100";
+    $font-Flaticon-spanner: "\f101";
+    $font-Flaticon-light-bolt: "\f102";
+    $font-Flaticon-trolley: "\f103";
+    $font-Flaticon-lorry: "\f104";
+    $font-Flaticon-battery: "\f105";
+    $font-Flaticon-container: "\f106";
+    $font-Flaticon-warehouse: "\f107";
+    $font-Flaticon-roller-brush: "\f108";
+    $font-Flaticon-fire-extinguisher: "\f109";
+    $font-Flaticon-wrench: "\f10a";
+    $font-Flaticon-plane: "\f10b";
+    $font-Flaticon-power-plant: "\f10c";
+    $font-Flaticon-helmet: "\f10d";
+    $font-Flaticon-trolley-1: "\f10e";
+    $font-Flaticon-shop: "\f10f";
+    $font-Flaticon-delivery: "\f110";
+    $font-Flaticon-barrel: "\f111";
+    $font-Flaticon-crane: "\f112";
+    $font-Flaticon-clipboard: "\f113";
+    $font-Flaticon-gears: "\f114";
+    $font-Flaticon-cone: "\f115";
+    $font-Flaticon-shovel: "\f116";
+    $font-Flaticon-ship: "\f117";
+    $font-Flaticon-jerrycan: "\f118";
+    $font-Flaticon-saw: "\f119";
+    $font-Flaticon-flashlight: "\f11a";
+    $font-Flaticon-drill: "\f11b";
+    $font-Flaticon-fuel: "\f11c";
+    $font-Flaticon-driller: "\f11d";
+    $font-Flaticon-derrick: "\f11e";
+    $font-Flaticon-factory: "\f11f";
+    $font-Flaticon-truck: "\f120";
+    $font-Flaticon-axe: "\f121";
+    $font-Flaticon-screwdriver: "\f122";
+    $font-Flaticon-box: "\f123";
+    $font-Flaticon-excavator: "\f124";
+    $font-Flaticon-hammer: "\f125";
+    $font-Flaticon-flask: "\f126";
+    $font-Flaticon-trowel: "\f127";
+    $font-Flaticon-tractor: "\f128";
+    $font-Flaticon-pipe: "\f129";
+    $font-Flaticon-hook: "\f12a";
+    $font-Flaticon-plug: "\f12b";
+    $font-Flaticon-forklift: "\f12c";
+    $font-Flaticon-welder: "\f12d";
+    $font-Flaticon-barrier: "\f12e";
+    $font-Flaticon-maintenance: "\f12f";
+    $font-Flaticon-mask: "\f130";
+    $font-Flaticon-rocket: "\f131";
+    $font-Flaticon-documentation: "\f132";
+    $font-Flaticon-target: "\f133";
+    $font-Flaticon-speedometer: "\f134";
+    $font-Flaticon-diagram: "\f135";
+    $font-Flaticon-horse: "\f136";
+    $font-Flaticon-store: "\f137";
+    $font-Flaticon-piggy-bank: "\f138";
+    $font-Flaticon-paper-plane: "\f139";
+    $font-Flaticon-money-bag: "\f13a";
+    $font-Flaticon-line-graph: "\f13b";
+    $font-Flaticon-award: "\f13c";
+    $font-Flaticon-tag: "\f13d";
+    $font-Flaticon-card: "\f13e";
+    $font-Flaticon-delivery-truck: "\f13f";
+    $font-Flaticon-tasks: "\f140";
+    $font-Flaticon-decreasing: "\f141";
+    $font-Flaticon-low-price: "\f142";
+    $font-Flaticon-evolution: "\f143";
+    $font-Flaticon-work-time: "\f144";
+    $font-Flaticon-line-chart: "\f145";
+    $font-Flaticon-coins: "\f146";
+    $font-Flaticon-idea: "\f147";
+    $font-Flaticon-analytics: "\f148";
+    $font-Flaticon-negotiation: "\f149";
+    $font-Flaticon-bank: "\f14a";
+    $font-Flaticon-id-card: "\f14b";
+    $font-Flaticon-chart: "\f14c";
+    $font-Flaticon-pie-chart: "\f14d";
+    $font-Flaticon-timer: "\f14e";
+    $font-Flaticon-communications: "\f14f";
