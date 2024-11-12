@@ -65,11 +65,12 @@
 	<link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/navigation.css">
 	<!-- REVOLUTION SLIDER END -->	
 </head>
+
 <body id="bg">
 <div class="page-wraper">
 <div id="loading-icon-bx"></div>
 	<!-- Header Top ==== -->
-    <header class="header rs-nav style-3">
+	<header class="header rs-nav">
 		<div class="top-bar">
 			<div class="container">
 				<div class="row d-flex justify-content-between">
@@ -90,38 +91,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="header-extra-info d-lg-block d-none">
-			<div class="container">
-				<div class="extra-info-inner">
-					<div class="extra-logo">
-						<a href="index.html"><img src="assets/images/logo-3.png" alt=""></a>
-					</div>
-					<div class="header-contant-info">
-						<ul>
-							<li class="br">
-								<i class="fa fa-clock-o icon"></i>
-								<h5 class="title">Mon to Fri</h5>
-								<p>09:00am - 06:00pm </p>
-							</li>
-							<li>
-								<i class="fa fa-envelope icon"></i>
-								<h5 class="title">Email Address</h5>
-								<p>info@yourdomain.com</p>
-							</li>
-							<li>
-								<a href="#" class="btn radius-sm">Get In Touch</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="sticky-header navbar-expand-lg">
             <div class="menu-bar clearfix">
                 <div class="container clearfix">
 					<!-- Header Logo ==== -->
-					<div class="menu-logo d-lg-none d-table">
-						<a href="index.html"><img src="assets/images/logo-white.png" alt=""></a>
+					<div class="menu-logo">
+						<a href="index.html"><img src="" alt=""></a> <h3 class="text-center pt-4">BOTNINE</h3>
 					</div>
 					<!-- Mobile Nav Button ==== -->
                     <button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -133,6 +108,9 @@
                     <div class="secondary-menu">
                         <div class="secondary-inner">
                             <ul>
+								<li class="search-btn">
+									<button id="quik-search-btn" type="button" class="btn-link"><i class="ti-search"></i></button>
+								</li>
 								<li>
 									<a href="javascript:;" class="cart-btn">
 										<span>0</span>
@@ -175,26 +153,24 @@
 										</li>
 									</ul>
 								</li>
-								<li class="search-box">
-									<form action="#">
-										<input name="search" value="" type="text" class="form-control" placeholder="Search">
-										<button type="button"><i class="ti-search"></i></button>
-									</form>
-								</li>
-								<li class="aside-box d-none d-lg-block">
-									<a class="aside-btn contact-sidebtn" href="#">
-										<span></span>
-										<span></span>
-										<span></span>
-									</a>
+								<li class="d-none d-sm-block">
+									<a href="get-in-touch.html" class="btn">Get In Touch</a>
 								</li>
 							</ul>
 						</div>
                     </div>
+					<!-- Search Box ==== -->
+                    <div class="nav-search-bar">
+                        <form action="#">
+                            <input name="search" value="" type="text" class="form-control" placeholder="Type to search">
+                            <span><i class="ti-search"></i></span>
+                        </form>
+						<span id="search-remove"><i class="ti-close"></i></span>
+                    </div>
 					<!-- Navigation Menu ==== -->
-                    <div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
+                    <div class="menu-links navbar-collapse collapse justify-content-end" id="menuDropdown">
 						<div class="menu-logo">
-							<a href="index.html"><img src="assets/images/logo-3.png" alt=""></a>
+							<a href="index.html"><img src="assets/images/logo-2.png" alt=""></a>
 						</div>
                         <ul class="nav navbar-nav">	
 							<li class="active"><a href="javascript:;">Home<i class="fa fa-chevron-down"></i></a>
@@ -450,7 +426,7 @@
                                     data-bgparallax="10" 
                                     class="rev-slidebg"
                                     data-no-retina>
-                                    <!-- <source src="assets/images/slider/video-1.mp4" type="video/mp4"> -->
+                                    <source src="assets/video/hero-1.mp4" type="video/mp4">
                                 </video>
                             
                                 <!-- Overlay layer with reduced opacity -->
@@ -499,7 +475,7 @@
 								data-paddingright="[0,0,0,0]"
 								data-paddingbottom="[10,10,10,10]"
 								data-paddingleft="[0,0,0,0]"
-								style="z-index: 6; font-family:Cerebri Sans; font-weight:700; color: gainsboro; text-align:center; white-space: normal;">
+								style="z-index: 6; font-family:Cerebri Sans; font-weight:700; color: white; text-align:center; white-space: normal;">
 								Your Partner in Tech-Driven Innovation
 							</div>
 							
@@ -521,7 +497,7 @@
 								data-paddingright="[0,0,0,0]"
 								data-paddingbottom="[10,10,10,10]"
 								data-paddingleft="[0,0,0,0]"
-								style="z-index: 6; font-family:Cerebri Sans; font-weight:300; color: #374a75; text-align:center; white-space: normal;">
+								style="z-index: 6; font-family:Cerebri Sans; font-weight:300; color: white; text-align:center; white-space: normal;">
 								We specialize in developing innovative, superior products with a commitment to precision and excellence.
 							</div>
 
@@ -593,7 +569,7 @@
                                     data-bgparallax="10" 
                                     class="rev-slidebg"
                                     data-no-retina>
-                                    <!-- <source src="assets/images/slider/video-1.mp4" type="video/mp4"> -->
+                                    <source src="assets/video/hero-1.mp4" type="video/mp4">
                                 </video>
                             
                                 <!-- Overlay layer with reduced opacity -->
@@ -639,7 +615,7 @@
 								data-paddingright="[0,0,0,0]"
 								data-paddingbottom="[10,10,10,10]"
 								data-paddingleft="[0,0,0,0]"
-								style="z-index: 6; font-family:Cerebri Sans; font-weight:700; color: #020d26; text-align:center; white-space: normal;">
+								style="z-index: 6; font-family:Cerebri Sans; font-weight:700; color: white; text-align:center; white-space: normal;">
 								Innovation Begins, Botnine Delivers
 							</div>
 							
@@ -661,7 +637,7 @@
 								data-paddingright="[0,0,0,0]"
 								data-paddingbottom="[10,10,10,10]"
 								data-paddingleft="[0,0,0,0]"
-								style="z-index: 6; font-family:Cerebri Sans; font-weight:300; color: #374a75; text-align:center; white-space: normal;">
+								style="z-index: 6; font-family:Cerebri Sans; font-weight:300; color: white; text-align:center; white-space: normal;">
 								Focused on quality and innovation, we deliver products that solve real-world challenges effectively.
 							</div>
 
@@ -724,8 +700,10 @@
                     <h6 class="title-ext m-b0">About Botnine</h6>
                     <h2 class="title-head m-b0">Your Partner in Engineering Excellence.</h2>
                     <div class="ttr-separator sepimg"></div>
-                    <h5 class="title-text fw4 m-t5 m-b0">.... Need to fill</h5>
-                    <p class="head-px2">....  Need to fill</p>
+                    <h5 class="title-text fw4 m-t5 m-b0">Our purpose follow leading design, engineering and industrial manufacturing company specialising in mining, oil, gas and engineering services.</h5>
+                    <p class="head-px2">Our purpose follow leading design, engineering and industrial manufacturing company specialising in mining, oil, gas and engineering services.Our purpose follow leading design, engineering and industrial.
+
+					</p>
                 </div>
                 <a href="about-1.html" class="btn">About Us</a>
             </div>
@@ -1040,6 +1018,19 @@
                     <div class="bg-img" style="background-image:url(assets/images/portfolio/agriculture/image_5.jpg)"></div>
                 </div>
             </div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.4s">
+                <div class="feature-container feature-bx1">
+                    <div class="feature-lg text-white m-b20">
+                        <a href="javascript:;" class="icon-cell"><i class="flaticon-fuel"></i></a> 
+                    </div>
+                    <div class="icon-content">
+                        <h4 class="ttr-tilte">Software & IT</h4>
+                        <p></p>
+                        <a href="services-details.html" class="btn-link">Read More</a>
+                    </div>
+                    <div class="bg-img" style="background-image:url(assets/images/portfolio/agriculture/image_5.jpg)"></div>
+                </div>
+            </div>
             </div>
 			
 
@@ -1288,7 +1279,7 @@
                             <ul class="media-post">
                                 <li class="date"><a href="javascript:;"><i class="fa fa-calendar-o"></i>February 14 2019</a></li>
                             </ul>
-                            <h4 class="post-title"><a href="blog-details-sidebar.html">Empowering Development with Low-Code/No-Code Platforms.</a></h4>
+                            <h4 class="post-title"><a href="blog-details-sidebar.html">Empowering Development with Low-Code Platforms</a></h4>
                             <p>Low-code and no-code tools allow non-developers to create software solutions rapidly. Explore their benefits, limitations, and best practices for IT integration.</p>
                             <div class="post-extra">
                                 <a href="blog-details-sidebar.html" class="btn-link black radius-xl">READ MORE</a>
